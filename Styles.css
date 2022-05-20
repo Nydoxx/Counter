@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+h1 {
+    position: relative;
+    bottom: 10px;
+    font-weight: bolder;
+    font-size: 300%;
+}
+span {
+    position: relative;
+    bottom: 10px;
+    font-size: x-large;
+}
+div:last-of-type {
+    position: relative;
+    top: 10px;
+}
+button:first-of-type {
+    position: relative;
+    right: 10px;
+}
+button:last-of-type {
+    position: relative;
+    left: 10px;
+}
